@@ -17,6 +17,18 @@ This template will deploy an SSM Automation runbook called **Resource-Inventory-
 1.  [Grafana Cloud Account](https://grafana.com/products/cloud/) 
 1.  Configure the [Athena Plugin](https://grafana.com/grafana/plugins/grafana-athena-datasource/) within your Grafana Cloud Instance 
 
+### Deploy CloudFormation template
+The AWS CloudFormation template deploys an SSM automation runbook called Resource-Inventory-Visualization. 
+It is used to set up AWS Config for use with Athena. 
+
+- Download and save the CloudFormation template resource-inventory-automation.yaml.
+- Open the AWS CloudFormation console.
+- Choose Create stack.
+- For Specify template, choose Upload a template file, choose the file you saved locally, resource-inventory-automation.yaml, and choose Next.
+- For Stack name, enter Resource-Inventory-Visualization, and choose Next.
+- Leave the defaults on the Configure stack options page and choose Next.
+- On the review page, check the box I acknowledge that AWS CloudFormation might create IAM resources with custom names, and choose Create stack.
+
 ### Input Parameters for the Resource-Inventory-Visualization Automation Runbook
 * **ConfigDeliveryChannelName:** (Required) Name of your AWS Config Delievery Channel.  The default is set to the value of default.
 * **ConfigS3BucketLocation:** (Required) AWS Config S3 Bucket Name, this is the name of your S3 Bucket you currently use for AWS Config. (ie, config-bucket-1234567891)
