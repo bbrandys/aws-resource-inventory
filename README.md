@@ -44,6 +44,9 @@ Upload the JSON file that you previously Downloaded.
 
 The dashboard will now populate with your resource inventory data. 
 
-<Image Placeholder>
+
+<img width="1777" alt="Grafana Resource Inventory Dashboard" src="https://github.com/bbrandys/aws-resource-inventory/assets/104938954/e076c358-3cac-483c-b12a-7d0489577369">
+
+
 
 This dashboard is only a starting point—depending on what resources you want to visualize, you can add additional views in Athena, Additional Panels, and more dashboards in Grafana. 
