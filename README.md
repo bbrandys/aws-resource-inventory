@@ -17,7 +17,7 @@ This template will deploy an SSM Automation runbook called **Resource-Inventory-
 1.  [Grafana Cloud Account](https://grafana.com/products/cloud/) 
 1.  Configure the [Athena Plugin](https://grafana.com/grafana/plugins/grafana-athena-datasource/) within your Grafana Cloud Instance 
 
-### Input Parameters for the Config-QuickSight-Visualization Automation Runbook
+### Input Parameters for the Resource-Inventory-Visualization Automation Runbook
 * **ConfigDeliveryChannelName:** (Required) Name of your AWS Config Delievery Channel.  The default is set to the value of default.
 * **ConfigS3BucketLocation:** (Required) AWS Config S3 Bucket Name, this is the name of your S3 Bucket you currently use for AWS Config. (ie, config-bucket-1234567891)
 * **AutomationAssumeRole:** (Optional) The ARN of the role that allows Automation to perform the actions on your behalf.
@@ -46,4 +46,4 @@ The dashboard will now populate with your resource inventory data.
 
 <Image Placeholder>
 
-This dashboard is only a starting point - you can add additional views in Athena, Additional Panels, and more dashboards in Grafana Depending on what resources you want to visualize. 
+This dashboard is only a starting point—depending on what resources you want to visualize, you can add additional views in Athena, Additional Panels, and more dashboards in Grafana. 
