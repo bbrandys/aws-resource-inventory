@@ -57,7 +57,7 @@ Resources:
                 - NextStep: create_athena_db
                   Variable: '{{DeleteConfigVisualization}}'
                   StringEquals: "false"
-                - NextStep: delete_data_set_resource_compliance
+                - NextStep: delete_lambda_function
                   Variable: '{{DeleteConfigVisualization}}'
                   StringEquals: "true"
           - name: "create_athena_db"
