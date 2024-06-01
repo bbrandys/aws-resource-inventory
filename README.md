@@ -5,7 +5,7 @@
 An automated approach to AWS resource inventory observability with AWS Systems Manager, Config, Athena, and Grafana
 
 
-### What does this cloudformation template do?
+### What does this CloudFormation template do?
 This template will deploy an SSM Automation runbook called **Resource-Inventory-Visualization** that can be used to set up AWS Config to be used with Amazon Athena and Grafana Cloud to visualize your AWS resources - cross-account and cross-region
 
 ## Running the Resource-Inventory-Visualization Automation Runbook
