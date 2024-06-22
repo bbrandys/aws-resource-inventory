@@ -387,12 +387,5 @@ WHERE ((("configurationItem"."resourcetype" = ''AWS::Config::ResourceCompliance'
             action: 'aws:deleteStack'
             inputs:
               StackName: AWSConfigLambdaImportSnapshotToAthena
-            onFailure: Continue
-          - name: delete_athena_db
-            action: 'aws:executeAwsApi'
-            inputs:
-              Service: glue
-              Api: DeleteDatabase
-              Name: awsconfig
             isEnd: true
             onFailure: Continue
