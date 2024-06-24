@@ -387,5 +387,4 @@ WHERE ((("configurationItem"."resourcetype" = ''AWS::Config::ResourceCompliance'
             action: 'aws:deleteStack'
             inputs:
               StackName: AWSConfigLambdaImportSnapshotToAthena
-            isEnd: true
             onFailure: Continue
