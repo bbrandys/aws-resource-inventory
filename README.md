@@ -2,7 +2,7 @@
 </p>
 
 ## AWS SSM Automation Runbook to Setup AWS Config with Amazon Athena and Grafana Cloud
-An automated approach to AWS resource inventory observability with AWS Systems Manager, Config, Athena, and Grafana
+An automated approach to AWS resource inventory observability with AWS Systems Manager, Config, Athena, and Grafana.
 
 
 ### What does this CloudFormation template do?
